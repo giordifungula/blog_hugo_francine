@@ -16,16 +16,16 @@ paginate        = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "giordifungula"
+  twitterName = "FrancineHaay"
+  fbName = "eephy.lane"
+  youTubeName = "jodifungula"
 
   logo = ""
   orgName = "EM"
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
-  author = "Giordi"
+  author = "Francine"
   authorAvatar = "uploads/profile-picture.jpeg"
   authorLocation = "Cape Town"
   authorWebsite = "https://eueung.github.io"
@@ -52,10 +52,10 @@ paginate        = 6
 
 [[menu.main]]
   name = "Poetry"
-  url = "/poetry/"
+  url = "/categories/poetry/"
   weight = 99
 
 [[menu.main]]
   name = "You tube"
-  url = "https://google.com/"
+  url = "https://www.youtube.com/channel/UClagvd3rPOyLXS9UdFYhPow"
   weight = 95
