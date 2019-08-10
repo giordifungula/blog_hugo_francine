@@ -1,4 +1,4 @@
-baseurl         = "https://awesome-saha-309129.netlify.com"
+baseurl         = "https://awesome-saha-309129.netlify.com/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -47,7 +47,7 @@ paginate        = 6
 
 [[menu.main]]
   name = "Life Style"
-  url = "/life/"
+  url = "/categories/life/"
   weight = 100
 
 [[menu.main]]
