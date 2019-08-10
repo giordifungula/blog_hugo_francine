@@ -1,0 +1,60 @@
+baseurl         = ""
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Francine Blog Page"
+  subtitle    = "Life style, Poetry and You tube"
+
+  cover       = "uploads/home-bg.jpg"
+  description = "Blog website for my content"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "giordifungula"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Giordi"
+  authorAvatar = "uploads/profile-picture.jpeg"
+  authorLocation = "Cape Town"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "You tuber, Creative Writer and Blogger"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Life Style"
+  url = "/categories/life/"
+  weight = 100
+
+[[menu.main]]
+  name = "Poetry"
+  url = "/categories/poetry/"
+  weight = 99
+
+[[menu.main]]
+  name = "You tube"
+  url = "https://google.com/"
+  weight = 95
