@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
   media_folder: "static/uploads"
-  public_folder: "uploads"
+  public_folder: "public"
 
   collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
@@ -11,6 +11,11 @@ backend:
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "Podcast"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
     # fields: # The fields for each document, usually in front matter
     #   - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
     #   - {label: "Title", name: "title", widget: "string"}
