@@ -1,4 +1,4 @@
-baseurl         = "https://awesome-saha-309129.netlify.com/"
+baseurl         = "/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
