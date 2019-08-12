@@ -6,7 +6,7 @@ backend:
 
   media_folder: "static/uploads"
   # public_folder: "public"
-  media_library: "uploads"
+  media_library: "/uploads"
   
 
 collections:
