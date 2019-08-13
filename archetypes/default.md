@@ -2,9 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-categories: [""]
+categories: ["life"]
 tags:
-  - [""]
+  - ["hi"]
 author: Francine
 authorImage: images/uploads/profile-picture.jpeg
 image: ""

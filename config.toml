@@ -28,7 +28,7 @@ paginate        = 6
   orgDescription = "You Tube Site"
 
   author = "Francine"
-  authorAvatar = "uploads/profile-picture.jpeg"
+  authorAvatar = "images/uploads/profile-picture.jpeg"
   authorLocation = "Cape Town"
   authorWebsite = "https://eueung.github.io"
   authorDescription = "You tuber, Creative Writer and Blogger"
