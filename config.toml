@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://francinemujinga.online/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
