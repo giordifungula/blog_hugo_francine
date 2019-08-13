@@ -10,16 +10,16 @@ media_library: "/images/uploads"
   
 
 collections:
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
-    label: "post" # Used in the UI
-    folder: "content/post" # The path to the folder where the documents are stored
+  - name: "poetry" # Used in routes, e.g., /admin/collections/blog
+    label: "poetry" # Used in the UI
+    folder: "content/poetry" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "hidden", default: "post"}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "poetry"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
       - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
@@ -33,12 +33,12 @@ collections:
     label: "design" # Used in the UI
     folder: "content/design" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "hidden", default: "post"}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "design"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
       - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
@@ -50,16 +50,16 @@ collections:
       
 
 
-  - name: "poetry" # Used in routes, e.g., /admin/collections/blog
-    label: "post" # Used in the UI
-    folder: "content/poetry" # The path to the folder where the documents are stored
+  - name: "life" # Used in routes, e.g., /admin/collections/blog
+    label: "life" # Used in the UI
+    folder: "content/life" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "hidden", default: "post"}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "life"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
       - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
