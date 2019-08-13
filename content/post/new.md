@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "New"
+date: 2019-08-13T23:33:49+03:00
 draft: false
 categories: ["life"]
 tags:
@@ -13,3 +13,4 @@ share: true
 type: post
 ---
 
+Welcome

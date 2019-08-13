@@ -4,12 +4,15 @@ date: '2019-08-13T22:22:48+03:00'
 draft: true
 categories: ["poetry"]
 tags:
-  - Life
+  - ["Life"]
 author: Francine
-authorImage: images/uploads/profile-picture.jpeg
-thumbnail: /static/images/uploads/cool.jpeg
+authorImage: "images/uploads/profile-picture.jpeg"
+thumbnail: "/static/images/uploads/cool.jpeg"
 comments: true
 share: true
 type: post
 ---
 We are here today to celebrate people
+# We are here
+
+Eveery day
