@@ -4,9 +4,9 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "images/uploads"
+media_folder: "static/images/uploads"
 # public_folder: "public"
-media_library: "/uploads"
+media_library: "/images/uploads"
   
 
 collections:
@@ -16,11 +16,17 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "post"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: Author, name: author, widget: hidden, default: Francine}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image",required: false}
+      - {label: Commenting, name: comments, widget: boolean, default: true}
+      - {label: Sharing, name: share, widget: boolean, default: true}
+      - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "design" # Used in routes, e.g., /admin/collections/blog
@@ -29,12 +35,19 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "post"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: Author, name: author, widget: hidden, default: Francine}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image",required: false}
+      - {label: Commenting, name: comments, widget: boolean, default: true}
+      - {label: Sharing, name: share, widget: boolean, default: true}
+      - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
+      
 
 
   - name: "poetry" # Used in routes, e.g., /admin/collections/blog
@@ -43,9 +56,16 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "post"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: Author, name: author, widget: hidden, default: Francine}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image",required: false}
+      - {label: Commenting, name: comments, widget: boolean, default: true}
+      - {label: Sharing, name: share, widget: boolean, default: true}
+      - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
+      

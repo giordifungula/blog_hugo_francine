@@ -1,26 +1,28 @@
-baseurl         = "https://francinemujinga.online/"
+baseurl         = "/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 
+
 [params]
   title       = "Francine Blog Page"
   subtitle    = "Life style, Poetry and You tube"
 
-  cover       = "uploads/home-bg.jpg"
+  cover       = "images/uploads/home-bg.jpg"
   description = "Blog website for my content"
-  metaDescription = ""
+  metaDescription = "Francine Blog"
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
   twitterName = "FrancineHaay"
   fbName = "eephy.lane"
-  youTubeName = "/UClagvd3rPOyLXS9UdFYhPow"
+  youTubeName = "channel/UClagvd3rPOyLXS9UdFYhPow/about"
+  
 
-  logo = ""
+  logo = "https://static.vecteezy.com/system/resources/previews/000/619/336/large_2x/f-logo-and-symbols-template-vector-icons.jpg"
   orgName = "FM"
   orgWebsite = "https://www.telematika.org"
   orgDescription = "You Tube Site"
