@@ -1,15 +1,18 @@
 ---
-title: Cheese
-date: '2019-08-14T20:56:20+03:00'
+title: "Cheese"
+date: 2019-08-14T20:56:20+03:00
 draft: true
-categories: life
+categories: ["life"]
 tags:
-  - Hello
+  - "Hello"
 author: Francine
-authorImage: images/uploads/profile-picture.jpeg
-thumbnail: /static/images/uploads/cool.jpeg
+authorImage: "images/uploads/profile-picture.jpeg"
+image: "static/images/uploads/cool.jpeg"
 comments: true
 share: true
 type: post
 ---
 We are not moving out
+
+
+we are here
