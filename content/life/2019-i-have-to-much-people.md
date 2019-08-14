@@ -2,9 +2,9 @@
 title: I have to much People
 date: '2019-08-14T16:05:09+03:00'
 draft: true
-categories: life
+categories: ["life"]
 tags:
-  - life
+  - "life"
 author: Francine
 authorImage: images/uploads/profile-picture.jpeg
 thumbnail: /static/images/uploads/screenshot-from-2019-08-08-00-14-29.png
