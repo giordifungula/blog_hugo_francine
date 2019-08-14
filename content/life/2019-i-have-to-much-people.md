@@ -6,8 +6,8 @@ categories: "life"
 tags:
   - "life"
 author: Francine
-authorImage: images/uploads/profile-picture.jpeg
-thumbnail: /static/images/uploads/screenshot-from-2019-08-08-00-14-29.png
+authorImage: images/uploads/profile-picture.jpegs
+thumbnail: "static/images/uploads/screenshot-from-2019-08-08-00-14-29.png"
 comments: true
 share: true
 type: post
