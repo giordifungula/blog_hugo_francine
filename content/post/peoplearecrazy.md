@@ -4,7 +4,7 @@ date: 2019-08-14T15:06:21+03:00
 draft: false
 categories: ["life"]
 tags:
-  - ["hi"]
+  - "hi"
 author: Francine
 authorImage: images/uploads/profile-picture.jpeg
 image: ""

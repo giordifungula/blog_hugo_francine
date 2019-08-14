@@ -9,6 +9,7 @@ paginate        = 6
 [params]
   title       = "Francine Blog Page"
   subtitle    = "Life style, Poetry and You tube"
+  tags = "post"
 
   cover       = "images/uploads/home-bg.jpg"
   description = "Blog website for my content"

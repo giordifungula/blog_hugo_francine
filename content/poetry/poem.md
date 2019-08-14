@@ -4,7 +4,7 @@ date: 2019-08-14T00:39:44+03:00
 draft: false
 categories: ["poetry"]
 tags:
-  - ["hi"]
+  - "hi"
 author: Francine
 authorImage: images/uploads/profile-picture.jpeg
 image: ""
