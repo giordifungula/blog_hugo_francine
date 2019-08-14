@@ -50,12 +50,12 @@ paginate        = 6
 
 [[menu.main]]
   name = "Life Style"
-  url = "/life"
+  url = "/categories/life"
   weight = 100
 
 [[menu.main]]
   name = "Poetry"
-  url = "/poetry"
+  url = "/categories/poetry"
   weight = 99
 
 [[menu.main]]
