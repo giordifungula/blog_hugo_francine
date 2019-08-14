@@ -2,7 +2,7 @@
 title: I have to much People
 date: '2019-08-14T16:05:09+03:00'
 draft: true
-categories: ["life"]
+categories: "life"
 tags:
   - "life"
 author: Francine
