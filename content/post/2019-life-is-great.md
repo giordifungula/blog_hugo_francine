@@ -2,7 +2,7 @@
 title: Life is great
 date: '2019-08-14T23:27:00+03:00'
 draft: true
-categories: life
+categories: "life"
 tags:
   - good news
 author: Francine
