@@ -20,7 +20,7 @@ collections:
       - {label: Publish Date, name: date, widget: datetime}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Categories", name: "categories", widget: "string",required: true, default: "life"}
-      - {label: "Tags", name: "tags", widget: "string", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
       - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
       - {label: "Featured Image", name: "image", widget: "image",required: false}

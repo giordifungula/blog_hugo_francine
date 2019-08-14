@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: false
 categories: ""
 tags:
-  - "image"
+  - ""
 author: "Francine"
 authorImage: images/uploads/profile-picture.jpeg
 image: ""
