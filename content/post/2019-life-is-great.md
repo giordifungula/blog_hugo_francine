@@ -1,8 +1,8 @@
 ---
-title: Life is great
+title: Life is great too
 date: '2019-08-14T23:27:00+03:00'
 draft: true
-categories: "life"
+categories: life
 tags:
   - good news
 author: Francine
@@ -13,3 +13,7 @@ share: true
 type: post
 ---
 Steve Harvey is walking down the TV I have made a change
+
+
+
+making an edit
