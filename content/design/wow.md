@@ -6,7 +6,7 @@ categories: "design"
 tags:
   - ""
 author: "Francine"
-authorImage: /static/images/uploads/profile-picture.jpg
+authorImage: "/static/images/uploads/profile-picture.jpg"
 image: ""
 comments: true
 share: true

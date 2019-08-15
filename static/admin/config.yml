@@ -22,7 +22,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "string",required: true, default: "life"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
-      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "/images/uploads/profile-picture.jpg"}
       - {label: "Featured Image", name: "image", widget: "image",required: false}
       - {label: Commenting, name: comments, widget: boolean, default: true}
       - {label: Sharing, name: share, widget: boolean, default: true}
@@ -41,7 +41,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "string",required: true, default: "poetry"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
-      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpg"}
       - {label: "Featured Image", name: "image", widget: "image",required: false}
       - {label: Commenting, name: comments, widget: boolean, default: true}
       - {label: Sharing, name: share, widget: boolean, default: true}
