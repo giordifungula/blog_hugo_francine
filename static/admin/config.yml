@@ -14,15 +14,15 @@ collections:
     label: "life" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "string",required: true, default: "'life'"}
+      - {label: "Categories", name: "categories", widget: "string",required: true, default: "life"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
-      - {label: Author Image, name: authorImage, widget: hidden, default: "static/images/uploads/profile-picture.jpeg"}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
       - {label: "Featured Image", name: "image", widget: "image",required: false}
       - {label: Commenting, name: comments, widget: boolean, default: true}
       - {label: Sharing, name: share, widget: boolean, default: true}
@@ -33,15 +33,15 @@ collections:
     label: "poetry" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Categories", name: "categories", widget: "string",required: true, default: "'poetry'"}
+      - {label: "Categories", name: "categories", widget: "string",required: true, default: "poetry"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: Francine}
-      - {label: Author Image, name: authorImage, widget: hidden, default: "static/images/uploads/profile-picture.jpeg"}
+      - {label: Author Image, name: authorImage, widget: hidden, default: "images/uploads/profile-picture.jpeg"}
       - {label: "Featured Image", name: "image", widget: "image",required: false}
       - {label: Commenting, name: comments, widget: boolean, default: true}
       - {label: Sharing, name: share, widget: boolean, default: true}

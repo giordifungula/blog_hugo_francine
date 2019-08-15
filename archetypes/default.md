@@ -6,7 +6,7 @@ categories: ""
 tags:
   - ""
 author: "Francine"
-authorImage: /static/images/uploads/profile-picture.jpg
+authorImage: /images/uploads/profile-picture.jpg
 image: ""
 comments: true
 share: true
