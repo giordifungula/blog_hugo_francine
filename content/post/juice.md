@@ -1,8 +1,8 @@
 ---
-title: Juice
+title: "Juice"
 date: '2019-08-15T23:41:30+03:00'
 draft: true
-categories: life
+categories: "life"
 tags:
   - hi
 author: Francine

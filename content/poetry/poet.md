@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Poet"
+date: 2019-08-16T10:05:22+03:00
 draft: false
-categories: ""
+categories: "poetry"
 tags: 
   - "hi"
 author: "Francine"

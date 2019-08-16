@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "People"
+date: 2019-08-16T10:02:25+03:00
 draft: false
-categories: ""
+categories: "life"
 tags: 
   - "hi"
 author: "Francine"
@@ -12,4 +12,3 @@ comments: true
 share: true
 type: post
 ---
-
